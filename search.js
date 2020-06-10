@@ -13,8 +13,8 @@ const search = function search(index, body) {
 
 module.exports = function searchData() {
     let body = {
-        size: 4,
-        from: 0,
+        // size: 4,
+        // from: 0,
         query: {
             match_all: {}
         }
